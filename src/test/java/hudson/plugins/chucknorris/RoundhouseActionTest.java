@@ -15,8 +15,8 @@ public class RoundhouseActionTest extends TestCase {
 		assertEquals(Style.BAD_ASS, action.getStyle());
 		assertEquals("Chuck Norris can divide by zero.", action
 				.getFact());
-		assertEquals("Chuck Norris", action.getDisplayName());
+		assertEquals("Team Quotes", action.getDisplayName());
 		assertNull(action.getIconFileName());
-		assertEquals("chucknorris", action.getUrlName());
+		assertEquals("teamquotes", action.getUrlName());
 	}
 }

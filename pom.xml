@@ -7,18 +7,18 @@
     </parent>
 
     <groupId>org.jvnet.hudson.plugins</groupId>
-    <artifactId>chucknorris</artifactId>
+    <artifactId>teamquotes</artifactId>
     <version>0.6-SNAPSHOT</version>
-    <name>ChuckNorris Plugin</name>
-    <description>Displays a picture of Chuck Norris (instead of Jenkins the butler) and a random Chuck Norris 'The Programmer' fact on each build page.</description>
+    <name>Team Quotes Plugin</name>
+    <description>Displays a picture and a preconfigured quote on each build page.</description>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/ChuckNorris+Plugin</url>
     <packaging>hpi</packaging>
 
     <developers>
         <developer>
-            <id>cliffano</id>
-            <name>Cliffano Subagio</name>
-            <email>blah@cliffano.com</email>
+            <id>oshai</id>
+            <name>Ohad Shai</name>
+            <email>ohadshai@gmail.com</email>
             <timezone>+10</timezone>
         </developer>
     </developers>
@@ -126,9 +126,9 @@
     </reporting>
     
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/chucknorris-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/chucknorris-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/chucknorris-plugin</url>
+        <connection>scm:git:git://github.com/oshai/team-quotes-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:oshai/team-quotes-plugin</developerConnection>
+        <url>https://github.com/oshai/team-quotes-plugin</url>
     </scm>
 
     <pluginRepositories>

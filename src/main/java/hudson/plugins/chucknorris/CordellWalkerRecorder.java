@@ -22,10 +22,10 @@
 package hudson.plugins.chucknorris;
 
 import hudson.Launcher;
-import hudson.model.AbstractBuild;
-import hudson.model.AbstractProject;
 import hudson.model.Action;
 import hudson.model.BuildListener;
+import hudson.model.AbstractBuild;
+import hudson.model.AbstractProject;
 import hudson.tasks.BuildStepMonitor;
 import hudson.tasks.Recorder;
 
@@ -71,7 +71,7 @@ public class CordellWalkerRecorder extends Recorder {
      */
     public CordellWalkerRecorder(final FactGenerator factGenerator) {
         this.factGenerator = factGenerator;
-        LOGGER.info("Chuck Norris is activated");
+        LOGGER.info("Team Quotes is activated");
     }
 
     /**
