@@ -10,7 +10,7 @@
     <artifactId>teamquotes</artifactId>
     <version>0.6-SNAPSHOT</version>
     <name>Team Quotes Plugin</name>
-    <description>Displays a picture and a preconfigured quote on each build page.</description>
+    <description>Displays a picture and a pre-configured quote on each build page.</description>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/ChuckNorris+Plugin</url>
     <packaging>hpi</packaging>
 
